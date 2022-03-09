@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    index
+{% endblock title %}
+
+
+{% block body %}
+
+<h1> this index page !!</h1>
+<br>
+<a href="{% url 'add_new' %}"><button type="button" class="btn btn-primary"> New todo !! </button></a>
+<br> <br>
+<a href="{% url 'all_todo' %}"> <button type="button" class="btn btn-success">all todo !!</button></a>
+{% endblock body %} 
+
+

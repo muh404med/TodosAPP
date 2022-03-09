@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+   delete todo !!
+{% endblock title %}
+
+
+{% block body %}
+<h3>{{object.text}}<br><a href="/edit/{{object.id}}"> Edit !</a><br>
+   <a href="/delete/{{object.id}}"> Delete !</a></h3>
+{% endblock body %} 
